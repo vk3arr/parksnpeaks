@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">parksnpeaks</string>
+	<string name="title_section1">All Spots</string>
+	<string name="title_section2">Parks</string>
+	<string name="title_section3">Peaks</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="title_section4">Alerts</string>
+	<string name="post_spot">Post Spot</string>
+	<string-array name="update_frequencies">
+		<item>1 minute</item>
+		<item>2 minutes</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>15 minutes</item>
+	</string-array>
+	<string-array name="update_frequencies_values">
+		<item>1</item>
+		<item>2</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+	</string-array>
+	<string-array name="spot_list_length">
+		<item>1 hour</item>
+		<item>2 hours</item>
+		<item>3 hours</item>
+		<item>6 hours</item>
+		<item>12 hours</item>
+	</string-array>
+	<string-array name="spot_list_length_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>6</item>
+		<item>12</item>
+	</string-array>
+	<string-array name="mode_list_entries">
+		<item>SSB</item>
+		<item>CW</item>
+		<item>FM</item>
+		<item>AM</item>
+		<item>PSK</item>
+		<item>RTTY</item>
+		<item>OTHER</item>
+	</string-array>
+	<string-array name="type_list_entries">
+		<item>WWFF</item>
+		<item>KRMNPA</item>
+		<item>SANPCPA</item>
+		<item>QRP</item>
+	</string-array>
+	<string-array name="wwff_list_entries">
+		<item>(VKFF-567) VK0 Amery Station (ANARE)</item>
+<item>(VKFF-568) VK0 Davis Station (ANARE)</item>
+<item>(VKFF-569) VK0 Douglas Mawson Station (ANARE)</item>
+<item>(VKFF-565) VK0 Heard and McDonald Islands</item>
+<item>(VKFF-570) VK0 lonospherical Research Station (ANARE)</item>
+<item>(VKFF-566) VK0 Macquarie Island Station (ANARE)</item>
+<item>(VKFF-571) VK0 Richard Casey Station (ANARE)</item>
+<item>(VKFF-572) VK0 Wilkes Station (ANARE)</item>
+<item>(VKFF-833) VK1 Aranda Bushland</item>
+<item>(VKFF-834) VK1 Black Mountain</item>
+<item>(VKFF-835) VK1 Bruce Ridge</item>
+<item>(VKFF-836) VK1 Callum Brae</item>
+<item>(VKFF-837) VK1 Cooleman Ridge</item>
+<item>(VKFF-838) VK1 Crace</item>
+<item>(VKFF-839) VK1 Dunlop Grassland</item>
+<item>(VKFF-840) VK1 Farrer Ridge</item>
+<item>(VKFF-841) VK1 Goorooyarroo</item>
+<item>(VKFF-842) VK1 Gossan Hill</item>
+<item>(VKFF-843) VK1 Gungaderra Grassland</item>
+<item>(VKFF-844) VK1 Gungahlin Hill</item>
+<item>(VKFF-845) VK1 Isaacs Ridge</item>
+<item>(VKFF-846) VK1 Jerrabomberra Grassland</item>
+<item>(VKFF-847) VK1 Jerrabomberra Wetlands</item>
+<item>(VKFF-848) VK1 Kama</item>
+<item>(VKFF-849) VK1 McQuoids Hill</item>
+<item>(VKFF-850) VK1 Mt Ainslie</item>
+<item>(VKFF-851) VK1 Mt Majura</item>
+<item>(VKFF-852) VK1 Mt Mugga Mugga</item>
+<item>(VKFF-853) VK1 Mt Painter</item>
+<item>(VKFF-854) VK1 Mt Taylor</item>
+<item>(VKFF-855) VK1 Mulanggari Grassland</item>
+<item>(VKFF-856) VK1 Mulligans Flat</item>
+<item>(VKFF-377) VK1 Namadgi</item>
+<item>(VKFF-858) VK1 Oakey Hill</item>
+<item>(VKFF-857) VK1 OConnor Ridge</item>
+<item>(VKFF-859) VK1 Percival Hill</item>
+<item>(VKFF-860) VK1 Red Hill</item>
+<item>(VKFF-861) VK1 Rob Roy</item>
+<item>(VKFF-862) VK1 The Pinnacle</item>
+<item>(VKFF-863) VK1 Tuggeranong Hill</item>
+<item>(VKFF-864) VK1 Urambi Hills</item>
+<item>(VKFF-865) VK1 Wanniassa Hills</item>
+<item>(VKFF-001) VK2 Abercrombie River</item>
+<item>(VKFF-578) VK2 Arakoon</item>
+<item>(VKFF-004) VK2 Arakwal</item>
+<item>(VKFF-010) VK2 Bago Bluff</item>
+<item>(VKFF-011) VK2 Bald Rock</item>
+<item>(VKFF-012) VK2 Bangadilly</item>
+<item>(VKFF-013) VK2 Barakee</item>
+<item>(VKFF-015) VK2 Barool</item>
+<item>(VKFF-017) VK2 Barrington Tops</item>
+<item>(VKFF-019) VK2 Basket Swamp</item>
+<item>(VKFF-023) VK2 Belford</item>
+<item>(VKFF-024) VK2 Bellinger River</item>
+<item>(VKFF-025) VK2 Bemboka</item>
+<item>(VKFF-026) VK2 Ben Boyd</item>
+<item>(VKFF-027) VK2 Ben Halls Gap</item>
+<item>(VKFF-029) VK2 Benambra</item>
+<item>(VKFF-031) VK2 Biamanga</item>
+<item>(VKFF-032) VK2 Bimberamala</item>
+<item>(VKFF-033) VK2 Bindarri</item>
+<item>(VKFF-034) VK2 Biriwal Bulga</item>
+<item>(VKFF-041) VK2 Blue Mountains</item>
+<item>(VKFF-042) VK2 Bongil Bongil</item>
+<item>(VKFF-043) VK2 Booderee</item>
+<item>(VKFF-044) VK2 Boonoo Boonoo</item>
+<item>(VKFF-046) VK2 Booti Booti</item>
+<item>(VKFF-047) VK2 Border Ranges</item>
+<item>(VKFF-049) VK2 Bouddi</item>
+<item>(VKFF-050) VK2 Bournda</item>
+<item>(VKFF-579) VK2 Breelong</item>
+<item>(VKFF-054) VK2 Brindabella</item>
+<item>(VKFF-056) VK2 Brisbane Water</item>
+<item>(VKFF-058) VK2 Broadwater</item>
+<item>(VKFF-061) VK2 Budawang</item>
+<item>(VKFF-062) VK2 Budderoo</item>
+<item>(VKFF-063) VK2 Bugong</item>
+<item>(VKFF-580) VK2 Bullala</item>
+<item>(VKFF-065) VK2 Bundjalung</item>
+<item>(VKFF-066) VK2 Bungawalbin</item>
+<item>(VKFF-071) VK2 Butterleaf</item>
+<item>(VKFF-083) VK2 Capoompeta</item>
+<item>(VKFF-087) VK2 Carrai</item>
+<item>(VKFF-088) VK2 Cascade</item>
+<item>(VKFF-090) VK2 Cataract</item>
+<item>(VKFF-091) VK2 Cathedral Rock</item>
+<item>(VKFF-092) VK2 Cattai</item>
+<item>(VKFF-094) VK2 Chaelundi</item>
+<item>(VKFF-102) VK2 Clyde River</item>
+<item>(VKFF-104) VK2 Cocoparra</item>
+<item>(VKFF-581) VK2 Columbey</item>
+<item>(VKFF-107) VK2 Conimbla</item>
+<item>(VKFF-108) VK2 Conjola</item>
+<item>(VKFF-111) VK2 Coolah Tops</item>
+<item>(VKFF-112) VK2 Coolangubra</item>
+<item>(VKFF-114) VK2 Coorabakh</item>
+<item>(VKFF-116) VK2 Cottan-Bimbang</item>
+<item>(VKFF-582) VK2 Couradda</item>
+<item>(VKFF-583) VK2 Crawney Pass</item>
+<item>(VKFF-120) VK2 Crowdy Bay</item>
+<item>(VKFF-122) VK2 Cudmirrah</item>
+<item>(VKFF-124) VK2 Culgoa</item>
+<item>(VKFF-126) VK2 Cunnawarra</item>
+<item>(VKFF-584) VK2 Curracabundi</item>
+<item>(VKFF-138) VK2 Deua</item>
+<item>(VKFF-139) VK2 Dharug</item>
+<item>(VKFF-143) VK2 Dooragan</item>
+<item>(VKFF-144) VK2 Dorrigo</item>
+<item>(VKFF-585) VK2 Dowe</item>
+<item>(VKFF-586) VK2 Drillwarrina</item>
+<item>(VKFF-587) VK2 Dthinna Dthinnwan</item>
+<item>(VKFF-151) VK2 Dunggir</item>
+<item>(VKFF-164) VK2 Eurobodalla</item>
+<item>(VKFF-180) VK2 Fortis Creek</item>
+<item>(VKFF-190) VK2 Gardens of Stone</item>
+<item>(VKFF-191) VK2 Garigal</item>
+<item>(VKFF-588) VK2 Garrawilla</item>
+<item>(VKFF-194) VK2 Genoa</item>
+<item>(VKFF-195) VK2 Georges River</item>
+<item>(VKFF-196) VK2 Ghin-Doo-Ee</item>
+<item>(VKFF-197) VK2 Gibraltar Range</item>
+<item>(VKFF-589) VK2 Gir-um-bit</item>
+<item>(VKFF-204) VK2 Goobang</item>
+<item>(VKFF-208) VK2 Goonengerry</item>
+<item>(VKFF-590) VK2 Goonoo</item>
+<item>(VKFF-211) VK2 Goulburn River</item>
+<item>(VKFF-212) VK2 Gourock</item>
+<item>(VKFF-221) VK2 Gulaga</item>
+<item>(VKFF-591) VK2 Gumbaynggir</item>
+<item>(VKFF-222) VK2 Gundabooka</item>
+<item>(VKFF-592) VK2 Gunyerwarildi</item>
+<item>(VKFF-224) VK2 Guy Fawkes River</item>
+<item>(VKFF-593) VK2 Gwydir River</item>
+<item>(VKFF-230) VK2 Hat Head</item>
+<item>(VKFF-232) VK2 Heathcote</item>
+<item>(VKFF-594) VK2 Horton Falls</item>
+<item>(VKFF-595) VK2 Hunter Wetlands</item>
+<item>(VKFF-242) VK2 Indwarra</item>
+<item>(VKFF-248) VK2 Jerrawangala</item>
+<item>(VKFF-249) VK2 Jervis Bay</item>
+<item>(VKFF-251) VK2 Junuy Juluum</item>
+<item>(VKFF-255) VK2 Kalyarr</item>
+<item>(VKFF-048) VK2 Kamay-Botany</item>
+<item>(VKFF-256) VK2 Kanangra-Boyd</item>
+<item>(VKFF-596) VK2 Karuah</item>
+<item>(VKFF-263) VK2 Kingchega</item>
+<item>(VKFF-265) VK2 Kings Plains</item>
+<item>(VKFF-267) VK2 Kooraban</item>
+<item>(VKFF-268) VK2 Koreelah</item>
+<item>(VKFF-269) VK2 Kosciusko</item>
+<item>(VKFF-272) VK2 Ku-Ring-Gai Chase</item>
+<item>(VKFF-271) VK2 Kumbatine</item>
+<item>(VKFF-274) VK2 Kwiambal</item>
+<item>(VKFF-281) VK2 Lane Cove</item>
+<item>(VKFF-597) VK2 Limeburners Creek</item>
+<item>(VKFF-292) VK2 Livingstone</item>
+<item>(VKFF-295) VK2 Lord Howe Island</item>
+<item>(VKFF-298) VK2 Macquarie Pass</item>
+<item>(VKFF-301) VK2 Mallanganee</item>
+<item>(VKFF-302) VK2 Mallee Cliffs</item>
+<item>(VKFF-304) VK2 Maria</item>
+<item>(VKFF-307) VK2 Marramarra</item>
+<item>(VKFF-598) VK2 Marrangaro</item>
+<item>(VKFF-309) VK2 Maryland</item>
+<item>(VKFF-311) VK2 Mebbin</item>
+<item>(VKFF-312) VK2 Meroo</item>
+<item>(VKFF-314) VK2 Middle Brother</item>
+<item>(VKFF-317) VK2 Mimosa Rocks</item>
+<item>(VKFF-319) VK2 Minjary</item>
+<item>(VKFF-599) VK2 Moema</item>
+<item>(VKFF-600) VK2 Mogriguy</item>
+<item>(VKFF-324) VK2 Monga</item>
+<item>(VKFF-325) VK2 Mooball</item>
+<item>(VKFF-330) VK2 Mootwingee</item>
+<item>(VKFF-334) VK2 Morton</item>
+<item>(VKFF-341) VK2 Mount Clunie</item>
+<item>(VKFF-350) VK2 Mount Imlay</item>
+<item>(VKFF-351) VK2 Mount Jerusalem</item>
+<item>(VKFF-353) VK2 Mount Kaputar</item>
+<item>(VKFF-355) VK2 Mount Nothofagus</item>
+<item>(VKFF-358) VK2 Mount Pikapene</item>
+<item>(VKFF-362) VK2 Mount Royal</item>
+<item>(VKFF-368) VK2 Mummel Gulf</item>
+<item>(VKFF-370) VK2 Mungo</item>
+<item>(VKFF-371) VK2 Murramarang</item>
+<item>(VKFF-601) VK2 Murrundi Pass</item>
+<item>(VKFF-374) VK2 Mutawintji</item>
+<item>(VKFF-375) VK2 Myall Lakes</item>
+<item>(VKFF-376) VK2 Nalbaugh</item>
+<item>(VKFF-379) VK2 Nangar</item>
+<item>(VKFF-383) VK2 Nattai</item>
+<item>(VKFF-385) VK2 New England</item>
+<item>(VKFF-389) VK2 Nightcap</item>
+<item>(VKFF-395) VK2 Nowendoc</item>
+<item>(VKFF-602) VK2 Nullamanna</item>
+<item>(VKFF-398) VK2 Nungatta</item>
+<item>(VKFF-399) VK2 Nymboi-Binderay</item>
+<item>(VKFF-400) VK2 Nymboida</item>
+<item>(VKFF-403) VK2 Oolambeyan</item>
+<item>(VKFF-406) VK2 Oxley Wild Rivers</item>
+<item>(VKFF-410) VK2 Paroo-Darling</item>
+<item>(VKFF-603) VK2 Pilliga</item>
+<item>(VKFF-604) VK2 Pilliga West</item>
+<item>(VKFF-417) VK2 Popran</item>
+<item>(VKFF-426) VK2 Ramornie</item>
+<item>(VKFF-431) VK2 Richmond Range</item>
+<item>(VKFF-435) VK2 Royal</item>
+<item>(VKFF-439) VK2 Saltwater</item>
+<item>(VKFF-444) VK2 Scheyville</item>
+<item>(VKFF-605) VK2 Scone Mountain</item>
+<item>(VKFF-606) VK2 Sea Acres</item>
+<item>(VKFF-447) VK2 Seven Mile Beach</item>
+<item>(VKFF-450) VK2 Single</item>
+<item>(VKFF-607) VK2 Somerton</item>
+<item>(VKFF-458) VK2 South East Forest</item>
+<item>(VKFF-470) VK2 Sturt</item>
+<item>(VKFF-473) VK2 Sydney Harbour</item>
+<item>(VKFF-474) VK2 Tallaganda</item>
+<item>(VKFF-476) VK2 Tantawangelo</item>
+<item>(VKFF-477) VK2 Tapin Tops</item>
+<item>(VKFF-478) VK2 Tarlo River</item>
+<item>(VKFF-486) VK2 Thirlmere Lakes</item>
+<item>(VKFF-608) VK2 Tilligerry</item>
+<item>(VKFF-609) VK2 Timallallie</item>
+<item>(VKFF-489) VK2 Timbarra</item>
+<item>(VKFF-610) VK2 Tinkrameanah</item>
+<item>(VKFF-490) VK2 Tomaree</item>
+<item>(VKFF-491) VK2 Tooloom</item>
+<item>(VKFF-492) VK2 Toonumbar</item>
+<item>(VKFF-495) VK2 Towarri</item>
+<item>(VKFF-501) VK2 Turon</item>
+<item>(VKFF-504) VK2 Ulidarra</item>
+<item>(VKFF-509) VK2 Wadbilliga</item>
+<item>(VKFF-510) VK2 Wallaga Lakes</item>
+<item>(VKFF-511) VK2 Wallarah</item>
+<item>(VKFF-611) VK2 Wallaroo</item>
+<item>(VKFF-512) VK2 Wallingat</item>
+<item>(VKFF-517) VK2 Warra</item>
+<item>(VKFF-518) VK2 Warrabah</item>
+<item>(VKFF-520) VK2 Warrumbungle</item>
+<item>(VKFF-521) VK2 Washpool</item>
+<item>(VKFF-522) VK2 Watagans</item>
+<item>(VKFF-526) VK2 Weddin Mountains</item>
+<item>(VKFF-528) VK2 Werakata</item>
+<item>(VKFF-529) VK2 Werrikimbe</item>
+<item>(VKFF-536) VK2 Willandra</item>
+<item>(VKFF-537) VK2 Willi Willi</item>
+<item>(VKFF-542) VK2 Woko</item>
+<item>(VKFF-544) VK2 Wollemi</item>
+<item>(VKFF-545) VK2 Wollumbin</item>
+<item>(VKFF-613) VK2 Woolooma</item>
+<item>(VKFF-613) VK2 Woolooma</item>
+<item>(VKFF-547) VK2 Woomargama</item>
+<item>(VKFF-614) VK2 Worimi</item>
+<item>(VKFF-550) VK2 Wyrrabalong</item>
+<item>(VKFF-551) VK2 Yabbra</item>
+<item>(VKFF-554) VK2 Yanga</item>
+<item>(VKFF-555) VK2 Yanununbeyan</item>
+<item>(VKFF-615) VK2 Yarragin</item>
+<item>(VKFF-616) VK2 Yarrahapinni</item>
+<item>(VKFF-557) VK2 Yarriabini</item>
+<item>(VKFF-617) VK2 Yarrobil</item>
+<item>(VKFF-558) VK2 Yellomundee Regional Park</item>
+<item>(VKFF-559) VK2 Yengo</item>
+<item>(VKFF-560) VK2 Yowaka River</item>
+<item>(VKFF-563) VK2 Yuraygir</item>
+<item>(VKFF-618) VK3 Alfred</item>
+<item>(VKFF-619) VK3 Alpine</item>
+<item>(VKFF-750) VK3 Arthurs Seat  </item>
+<item>(VKFF-739) VK3 Barmah</item>
+<item>(VKFF-020) VK3 Baw Baw</item>
+<item>(VKFF-743) VK3 Bay of Islands Coastal Park </item>
+<item>(VKFF-751) VK3 Black Range  </item>
+<item>(VKFF-055) VK3 Brisbane Ranges</item>
+<item>(VKFF-752) VK3 Broken-Boosey  </item>
+<item>(VKFF-753) VK3 Bunyip  </item>
+<item>(VKFF-069) VK3 Burrowa-pine Mountain</item>
+<item>(VKFF-744) VK3 Cape Conran Coastal Park </item>
+<item>(VKFF-745) VK3 Cape Liptrap Coastal Park </item>
+<item>(VKFF-754) VK3 Cape Nelson  </item>
+<item>(VKFF-755) VK3 Cathedral Range  </item>
+<item>(VKFF-620) VK3 Chiltern-Mount Pilot</item>
+<item>(VKFF-621) VK3 Churchill</item>
+<item>(VKFF-728) VK3 Cobbobonee</item>
+<item>(VKFF-113) VK3 Coopracambra</item>
+<item>(VKFF-119) VK3 Croajingolong</item>
+<item>(VKFF-132) VK3 Dandenong Ranges</item>
+<item>(VKFF-756) VK3 Dergholm  </item>
+<item>(VKFF-746) VK3 Discovery Bay Coastal Park </item>
+<item>(VKFF-757) VK3 Enfield  </item>
+<item>(VKFF-158) VK3 Errinundra</item>
+<item>(VKFF-622) VK3 French Island</item>
+<item>(VKFF-747) VK3 Gippsland Lakes Coastal Park </item>
+<item>(VKFF-213) VK3 Grampians</item>
+<item>(VKFF-405) VK3 Great Otway</item>
+<item>(VKFF-623) VK3 Greater Bendigo</item>
+<item>(VKFF-740) VK3 Gunbower</item>
+<item>(VKFF-231) VK3 Hattah-Kulkyne</item>
+<item>(VKFF-624) VK3 Heathcote-Graytown</item>
+<item>(VKFF-758) VK3 Holey Plains  </item>
+<item>(VKFF-684) VK3 Jack River</item>
+<item>(VKFF-629) VK3 Kara Kara</item>
+<item>(VKFF-264) VK3 Kinglake</item>
+<item>(VKFF-759) VK3 Kooyoora  </item>
+<item>(VKFF-625) VK3 Lake Eildon</item>
+<item>(VKFF-761) VK3 Lake Tyers  </item>
+<item>(VKFF-760) VK3 Lang Ghiran  </item>
+<item>(VKFF-762) VK3 Leaghur  </item>
+<item>(VKFF-763) VK3 Lerderderg  </item>
+<item>(VKFF-287) VK3 Lind</item>
+<item>(VKFF-291) VK3 Little Desert</item>
+<item>(VKFF-296) VK3 Lower Glenelg</item>
+<item>(VKFF-741) VK3 Lower Goulburn</item>
+<item>(VKFF-321) VK3 Mitchell River</item>
+<item>(VKFF-764) VK3 Moondarra  </item>
+<item>(VKFF-333) VK3 Mornington Peninsula</item>
+<item>(VKFF-626) VK3 Morwell</item>
+<item>(VKFF-765) VK3 Mount Arapiles-Tooan  </item>
+<item>(VKFF-766) VK3 Mount Buangor �</item>
+<item>(VKFF-339) VK3 Mount Buffalo</item>
+<item>(VKFF-345) VK3 Mount Eccles</item>
+<item>(VKFF-767) VK3 Mount Granya  </item>
+<item>(VKFF-768) VK3 Mount Lawson  </item>
+<item>(VKFF-769) VK3 Mount Napier  </item>
+<item>(VKFF-361) VK3 Mount Richmond</item>
+<item>(VKFF-770) VK3 Mount Samaria  </item>
+<item>(VKFF-771) VK3 Mount Worrth  </item>
+<item>(VKFF-373) VK3 Murray-sunset</item>
+<item>(VKFF-748) VK3 Nooramunga Coastal Park </item>
+<item>(VKFF-627) VK3 Organ Pipes</item>
+<item>(VKFF-772) VK3 Paddys Ranges  </item>
+<item>(VKFF-628) VK3 Point Nepean</item>
+<item>(VKFF-420) VK3 Port Campbell</item>
+<item>(VKFF-773) VK3 Reef Hills  </item>
+<item>(VKFF-749) VK3 Shallow Inlet Coastal Park </item>
+<item>(VKFF-455) VK3 Snowy River</item>
+<item>(VKFF-480) VK3 Tarra-Bulga</item>
+<item>(VKFF-630) VK3 Terrick Terrick</item>
+<item>(VKFF-484) VK3 The Lakes</item>
+<item>(VKFF-742) VK3 Warby Ovens</item>
+<item>(VKFF-774) VK3 Warrandyte  </item>
+<item>(VKFF-775) VK3 Werribee Gorge  </item>
+<item>(VKFF-539) VK3 Wilsons Promontory</item>
+<item>(VKFF-549) VK3 Wyperfeld</item>
+<item>(VKFF-556) VK3 Yarra Ranges</item>
+<item>(VKFF-661) VK4 Albinia</item>
+<item>(VKFF-003) VK4 Alton</item>
+<item>(VKFF-662) VK4 Amamoor</item>
+<item>(VKFF-663) VK4 Annan River</item>
+<item>(VKFF-006) VK4 Astrebla Downs</item>
+<item>(VKFF-007) VK4 Auburn River</item>
+<item>(VKFF-664) VK4 Ban Ban</item>
+<item>(VKFF-705) VK4 Bania</item>
+<item>(VKFF-014) VK4 Barnard Island Group</item>
+<item>(VKFF-018) VK4 Barron Gorge</item>
+<item>(VKFF-666) VK4 Benarkin</item>
+<item>(VKFF-030) VK4 Bendidee</item>
+<item>(VKFF-667) VK4 Beninbi</item>
+<item>(VKFF-035) VK4 Black Mountain (Kalkajaka)</item>
+<item>(VKFF-036) VK4 Blackbraes</item>
+<item>(VKFF-037) VK4 Blackdown Tableland</item>
+<item>(VKFF-038) VK4 Blackwood</item>
+<item>(VKFF-039) VK4 Bladensburg</item>
+<item>(VKFF-040) VK4 Blue Lake</item>
+<item>(VKFF-718) VK4 Bluff Hill</item>
+<item>(VKFF-282) VK4 Boodjamulla</item>
+<item>(VKFF-051) VK4 Bowling Green Bay</item>
+<item>(VKFF-052) VK4 Brampton Islands</item>
+<item>(VKFF-053) VK4 Bribie Island</item>
+<item>(VKFF-057) VK4 Broad Sound Islands</item>
+<item>(VKFF-060) VK4 Brook Islands</item>
+<item>(VKFF-668) VK4 Bulburin</item>
+<item>(VKFF-064) VK4 Bulleringa</item>
+<item>(VKFF-067) VK4 Bunya Mountains</item>
+<item>(VKFF-068) VK4 Burleigh Head</item>
+<item>(VKFF-070) VK4 Burrum Coast</item>
+<item>(VKFF-072) VK4 Byfield</item>
+<item>(VKFF-073) VK4 Camooweal Caves</item>
+<item>(VKFF-074) VK4 Cania Gorge</item>
+<item>(VKFF-077) VK4 Cape Hillsborough</item>
+<item>(VKFF-079) VK4 Cape Melville</item>
+<item>(VKFF-080) VK4 Cape Palmerston</item>
+<item>(VKFF-082) VK4 Cape Upstart</item>
+<item>(VKFF-084) VK4 Capricorn Coast</item>
+<item>(VKFF-085) VK4 Capricornia Cays</item>
+<item>(VKFF-086) VK4 Carnarvon</item>
+<item>(VKFF-089) VK4 Castle Tower</item>
+<item>(VKFF-669) VK4 Cherbourg</item>
+<item>(VKFF-096) VK4 Chesterton Range</item>
+<item>(VKFF-097) VK4 Chillagoe-Mungana Caves</item>
+<item>(VKFF-099) VK4 Claremont Isles</item>
+<item>(VKFF-100) VK4 Cliff Island</item>
+<item>(VKFF-101) VK4 Clump Mountain</item>
+<item>(VKFF-103) VK4 Coalstoun Lakes</item>
+<item>(VKFF-109) VK4 Conondale</item>
+<item>(VKFF-110) VK4 Conway</item>
+<item>(VKFF-729) VK4 Cordalba</item>
+<item>(VKFF-118) VK4 Crater Lakes</item>
+<item>(VKFF-121) VK4 Crows Nest</item>
+<item>(VKFF-123) VK4 Cudmore</item>
+<item>(VKFF-125) VK4 Culgoa Floodplain</item>
+<item>(VKFF-127) VK4 Currawinya</item>
+<item>(VKFF-670) VK4 Curtain Fig</item>
+<item>(VKFF-128) VK4 Curtis Island</item>
+<item>(VKFF-129) VK4 DAguilar</item>
+<item>(VKFF-130) VK4 Daintree</item>
+<item>(VKFF-131) VK4 Dalrymple</item>
+<item>(VKFF-672) VK4 Dan Dan</item>
+<item>(VKFF-671) VK4 Danbulla</item>
+<item>(VKFF-134) VK4 Davies Creek</item>
+<item>(VKFF-730) VK4 Dawes</item>
+<item>(VKFF-673) VK4 Dawes</item>
+<item>(VKFF-135) VK4 Deepwater</item>
+<item>(VKFF-674) VK4 Deer Reserve</item>
+<item>(VKFF-136) VK4 Denham Group</item>
+<item>(VKFF-140) VK4 Diamantina</item>
+<item>(VKFF-675) VK4 Dinden</item>
+<item>(VKFF-141) VK4 Dipperu</item>
+<item>(VKFF-676) VK4 Djiru</item>
+<item>(VKFF-147) VK4 Dryander</item>
+<item>(VKFF-149) VK4 Dularcha</item>
+<item>(VKFF-153) VK4 Ella Bay</item>
+<item>(VKFF-155) VK4 Endeavour River</item>
+<item>(VKFF-156) VK4 Epping Forest</item>
+<item>(VKFF-157) VK4 Erringibba</item>
+<item>(VKFF-320) VK4 Errk Oykangand</item>
+<item>(VKFF-677) VK4 Esk</item>
+<item>(VKFF-159) VK4 Eubenangee Swamp</item>
+<item>(VKFF-161) VK4 Eudlo Creek</item>
+<item>(VKFF-162) VK4 Eungella</item>
+<item>(VKFF-163) VK4 Eurimbula</item>
+<item>(VKFF-166) VK4 Expedition</item>
+<item>(VKFF-167) VK4 Fairlies Knob</item>
+<item>(VKFF-168) VK4 Family Islands</item>
+<item>(VKFF-169) VK4 Ferntree Creek</item>
+<item>(VKFF-723) VK4 Finucane Island</item>
+<item>(VKFF-172) VK4 Fitzroy Island</item>
+<item>(VKFF-174) VK4 Flinders Group</item>
+<item>(VKFF-178) VK4 Forest Den</item>
+<item>(VKFF-179) VK4 Fort Lytton</item>
+<item>(VKFF-181) VK4 Forty Mile Scrub</item>
+<item>(VKFF-184) VK4 Frankland Group</item>
+<item>(VKFF-186) VK4 Fraser Island</item>
+<item>(VKFF-187) VK4 Freshwater</item>
+<item>(VKFF-678) VK4 Gatton</item>
+<item>(VKFF-679) VK4 Geham</item>
+<item>(VKFF-152) VK4 Girramay</item>
+<item>(VKFF-198) VK4 Girraween</item>
+<item>(VKFF-199) VK4 Girringun</item>
+<item>(VKFF-200) VK4 Glass House Mountains</item>
+<item>(VKFF-680) VK4 Glenbar</item>
+<item>(VKFF-202) VK4 Gloucester Island</item>
+<item>(VKFF-203) VK4 Goneaway</item>
+<item>(VKFF-205) VK4 Goodedulla</item>
+<item>(VKFF-206) VK4 Goodnight Scrub</item>
+<item>(VKFF-207) VK4 Goold Island</item>
+<item>(VKFF-732) VK4 Goomboorian</item>
+<item>(VKFF-215) VK4 Great Basalt Wall</item>
+<item>(VKFF-216) VK4 Great Sandy</item>
+<item>(VKFF-217) VK4 Green Island</item>
+<item>(VKFF-220) VK4 Grey Peaks</item>
+<item>(VKFF-681) VK4 Grongah</item>
+<item>(VKFF-682) VK4 Gympie</item>
+<item>(VKFF-225) VK4 Halifax Bay Wetlands</item>
+<item>(VKFF-683) VK4 Hampton</item>
+<item>(VKFF-226) VK4 Hann Tableland</item>
+<item>(VKFF-229) VK4 Hasties Swamp</item>
+<item>(VKFF-233) VK4 Hell Hole Gorge</item>
+<item>(VKFF-733) VK4 Herberton Range</item>
+<item>(VKFF-721) VK4 Herberton Range</item>
+<item>(VKFF-235) VK4 Hinchinbrook Island</item>
+<item>(VKFF-236) VK4 Holbourne Island</item>
+<item>(VKFF-237) VK4 Homevale</item>
+<item>(VKFF-238) VK4 Hope Islands</item>
+<item>(VKFF-239) VK4 Howick Group</item>
+<item>(VKFF-240) VK4 Hull River</item>
+<item>(VKFF-241) VK4 Idalia</item>
+<item>(VKFF-245) VK4 Isla Gorge</item>
+<item>(VKFF-246) VK4 Japoon</item>
+<item>(VKFF-247) VK4 Jardine River</item>
+<item>(VKFF-685) VK4 Junee</item>
+<item>(VKFF-261) VK4 Keppel Bay Islands</item>
+<item>(VKFF-262) VK4 Keppel Bay Islands (scientific)</item>
+<item>(VKFF-686) VK4 Kinrara</item>
+<item>(VKFF-266) VK4 Kondalilla</item>
+<item>(VKFF-270) VK4 Kroombit Tops</item>
+<item>(VKFF-724) VK4 Kulla</item>
+<item>(VKFF-688) VK4 Kuranda</item>
+<item>(VKFF-273) VK4 Kurrimine Beach</item>
+<item>(VKFF-244) VK4 Kutini-Payamu</item>
+<item>(VKFF-275) VK4 Lake Bindegolly</item>
+<item>(VKFF-726) VK4 Lama Lama</item>
+<item>(VKFF-280) VK4 Lamington</item>
+<item>(VKFF-288) VK4 Lindeman Islands</item>
+<item>(VKFF-290) VK4 Littabella</item>
+<item>(VKFF-293) VK4 Lizard Island</item>
+<item>(VKFF-294) VK4 Lochern</item>
+<item>(VKFF-719) VK4 Lockyer</item>
+<item>(VKFF-734) VK4 Lockyer</item>
+<item>(VKFF-430) VK4 Ma-alpiku Island</item>
+<item>(VKFF-299) VK4 Magnetic Island</item>
+<item>(VKFF-300) VK4 Main Range</item>
+<item>(VKFF-689) VK4 Malaan</item>
+<item>(VKFF-690) VK4 Maleny</item>
+<item>(VKFF-303) VK4 Mapleton Falls</item>
+<item>(VKFF-691) VK4 Maria Creek</item>
+<item>(VKFF-306) VK4 Mariala</item>
+<item>(VKFF-310) VK4 Mazeppa</item>
+<item>(VKFF-692) VK4 Melsonby</item>
+<item>(VKFF-313) VK4 Michaelmas and Upolu Cays</item>
+<item>(VKFF-315) VK4 Millstream Falls</item>
+<item>(VKFF-318) VK4 Minerva Hills</item>
+<item>(VKFF-425) VK4 Mitrinchi Island</item>
+<item>(VKFF-323) VK4 Molle Islands</item>
+<item>(VKFF-326) VK4 Moogerah Peaks</item>
+<item>(VKFF-327) VK4 Mooloolah River</item>
+<item>(VKFF-329) VK4 Moorrinya</item>
+<item>(VKFF-331) VK4 Moresby Range</item>
+<item>(VKFF-332) VK4 Moreton Island</item>
+<item>(VKFF-335) VK4 Mount Aberdeen</item>
+<item>(VKFF-336) VK4 Mount Archer</item>
+<item>(VKFF-338) VK4 Mount Barney</item>
+<item>(VKFF-693) VK4 Mount Bauple</item>
+<item>(VKFF-694) VK4 Mount Binga</item>
+<item>(VKFF-340) VK4 Mount Chinghee</item>
+<item>(VKFF-342) VK4 Mount Colosseum</item>
+<item>(VKFF-343) VK4 Mount Cook</item>
+<item>(VKFF-344) VK4 Mount Coolum</item>
+<item>(VKFF-346) VK4 Mount Etna Caves</item>
+<item>(VKFF-349) VK4 Mount Hypipamee</item>
+<item>(VKFF-352) VK4 Mount Jim Crow</item>
+<item>(VKFF-695) VK4 Mount Mackay</item>
+<item>(VKFF-354) VK4 Mount Martin</item>
+<item>(VKFF-356) VK4 Mount OConnell</item>
+<item>(VKFF-357) VK4 Mount Ossa</item>
+<item>(VKFF-359) VK4 Mount Pinbarren</item>
+<item>(VKFF-720) VK4 Mount Spurgeon</item>
+<item>(VKFF-363) VK4 Mount Walsh</item>
+<item>(VKFF-365) VK4 Mount Webb</item>
+<item>(VKFF-696) VK4 Mount Windsor</item>
+<item>(VKFF-367) VK4 Mowbray</item>
+<item>(VKFF-449) VK4 Munga-Thirri</item>
+<item>(VKFF-698) VK4 Murray Upper</item>
+<item>(VKFF-699) VK4 Nairana</item>
+<item>(VKFF-700) VK4 Nangur</item>
+<item>(VKFF-382) VK4 Narrien Range</item>
+<item>(VKFF-387) VK4 Newry Islands</item>
+<item>(VKFF-093) VK4 Ngalba Bulal</item>
+<item>(VKFF-388) VK4 Nicoll Scrub</item>
+<item>(VKFF-391) VK4 Noosa</item>
+<item>(VKFF-393) VK4 North East Island</item>
+<item>(VKFF-394) VK4 Northumberland Islands</item>
+<item>(VKFF-701) VK4 Nour Nour</item>
+<item>(VKFF-396) VK4 Nuga Nuga</item>
+<item>(VKFF-401) VK4 Nymph Island</item>
+<item>(VKFF-404) VK4 Orpheus Island</item>
+<item>(VKFF-369) VK4 Oyala Thumotang</item>
+<item>(VKFF-407) VK4 Palmerston Rocks</item>
+<item>(VKFF-408) VK4 Palmgrove</item>
+<item>(VKFF-409) VK4 Paluma Range (Gulbaru)</item>
+<item>(VKFF-412) VK4 Peak Range</item>
+<item>(VKFF-702) VK4 Pidna</item>
+<item>(VKFF-413) VK4 Pioneer Peaks</item>
+<item>(VKFF-414) VK4 Pipeclay</item>
+<item>(VKFF-415) VK4 Piper Islands</item>
+<item>(VKFF-416) VK4 Poona</item>
+<item>(VKFF-418) VK4 Porcupine Gorge</item>
+<item>(VKFF-421) VK4 Possession Island</item>
+<item>(VKFF-422) VK4 Precipice</item>
+<item>(VKFF-703) VK4 Raine Island</item>
+<item>(VKFF-427) VK4 Ravensbourne</item>
+<item>(VKFF-428) VK4 Reliance Creek</item>
+<item>(VKFF-429) VK4 Repulse Island</item>
+<item>(VKFF-279) VK4 Rinyirru</item>
+<item>(VKFF-433) VK4 Rocky Islets</item>
+<item>(VKFF-434) VK4 Round Top Island</item>
+<item>(VKFF-437) VK4 Rundle Range</item>
+<item>(VKFF-438) VK4 Russell River</item>
+<item>(VKFF-440) VK4 Sandbanks</item>
+<item>(VKFF-441) VK4 Sarabah</item>
+<item>(VKFF-442) VK4 Saunders Islands</item>
+<item>(VKFF-451) VK4 Sir Charles Hardy Group</item>
+<item>(VKFF-453) VK4 Smith Islands</item>
+<item>(VKFF-454) VK4 Snake Range</item>
+<item>(VKFF-457) VK4 South Cumberland Islands</item>
+<item>(VKFF-459) VK4 South Island</item>
+<item>(VKFF-460) VK4 Southern Moreton Bay Islands</item>
+<item>(VKFF-462) VK4 Southwood</item>
+<item>(VKFF-463) VK4 Springbrook</item>
+<item>(VKFF-464) VK4 St Helena Island</item>
+<item>(VKFF-465) VK4 Staaten River</item>
+<item>(VKFF-466) VK4 Starcke</item>
+<item>(VKFF-471) VK4 Sundown</item>
+<item>(VKFF-472) VK4 Swain Reefs</item>
+<item>(VKFF-475) VK4 Tamborine</item>
+<item>(VKFF-479) VK4 Tarong</item>
+<item>(VKFF-483) VK4 Taunton</item>
+<item>(VKFF-706) VK4 Teerk Roo Ra</item>
+<item>(VKFF-485) VK4 The Palms</item>
+<item>(VKFF-487) VK4 Three Islands</item>
+<item>(VKFF-488) VK4 Thrushton</item>
+<item>(VKFF-493) VK4 Topaz Road</item>
+<item>(VKFF-496) VK4 Tregole</item>
+<item>(VKFF-497) VK4 Triunia</item>
+<item>(VKFF-707) VK4 Tully Falls</item>
+<item>(VKFF-499) VK4 Tully Gorge</item>
+<item>(VKFF-502) VK4 Turtle Group</item>
+<item>(VKFF-503) VK4 Two Islands</item>
+<item>(VKFF-506) VK4 Undara Volcanic</item>
+<item>(VKFF-507) VK4 Venman Bushland</item>
+<item>(VKFF-708) VK4 Warro</item>
+<item>(VKFF-527) VK4 Welford</item>
+<item>(VKFF-531) VK4 West Hill</item>
+<item>(VKFF-533) VK4 White Mountains</item>
+<item>(VKFF-534) VK4 Whitsunday Islands</item>
+<item>(VKFF-709) VK4 Wietalaba</item>
+<item>(VKFF-535) VK4 Wild Cattle Island</item>
+<item>(VKFF-546) VK4 Wondul Range</item>
+<item>(VKFF-710) VK4 Wongi</item>
+<item>(VKFF-711) VK4 Woocoo</item>
+<item>(VKFF-548) VK4 Wooroonooran</item>
+<item>(VKFF-712) VK4 Woowoonga</item>
+<item>(VKFF-727) VK4 Woroon</item>
+<item>(VKFF-713) VK4 Wuthara Island</item>
+<item>(VKFF-177) VK4 Wuthara Island</item>
+<item>(VKFF-561) VK4 Yungaburra</item>
+<item>(VKFF-714) VK4 Yuwi Paree Toolkoon</item>
+<item>(VKFF-791) VK5 Beachport</item>
+<item>(VKFF-022) VK5 Belair</item>
+<item>(VKFF-792) VK5 Big Heath</item>
+<item>(VKFF-821) VK5 Billiatt</item>
+<item>(VKFF-776) VK5 Black Hill</item>
+<item>(VKFF-822) VK5 Brookfield</item>
+<item>(VKFF-793) VK5 Butcher Gap</item>
+<item>(VKFF-075) VK5 Canunda</item>
+<item>(VKFF-777) VK5 Charleston</item>
+<item>(VKFF-778) VK5 Cleland</item>
+<item>(VKFF-812) VK5 Clements Gap</item>
+<item>(VKFF-813) VK5 Clinton</item>
+<item>(VKFF-105) VK5 Coffin Bay</item>
+<item>(VKFF-823) VK5 Cooltong</item>
+<item>(VKFF-631) VK5 Coongie Lakes</item>
+<item>(VKFF-115) VK5 Coorong</item>
+<item>(VKFF-824) VK5 Cox Scrub</item>
+<item>(VKFF-779) VK5 Cromer</item>
+<item>(VKFF-825) VK5 Danggali</item>
+<item>(VKFF-806) VK5 Darke Range</item>
+<item>(VKFF-780) VK5 Deep Creek</item>
+<item>(VKFF-794) VK5 Desert Camp</item>
+<item>(VKFF-795) VK5 Douglas Point</item>
+<item>(VKFF-809) VK5 Dudley</item>
+<item>(VKFF-796) VK5 Ewens Ponds</item>
+<item>(VKFF-173) VK5 Flinders Chase</item>
+<item>(VKFF-175) VK5 Flinders Island</item>
+<item>(VKFF-176) VK5 Flinders Ranges</item>
+<item>(VKFF-807) VK5 Franklin Harbor</item>
+<item>(VKFF-192) VK5 Gawler Ranges</item>
+<item>(VKFF-797) VK5 Glen Roy</item>
+<item>(VKFF-798) VK5 Gower</item>
+<item>(VKFF-214) VK5 Great Australian Bight (Marine)</item>
+<item>(VKFF-243) VK5 Innes</item>
+<item>(VKFF-276) VK5 Kati Thanda</item>
+<item>(VKFF-810) VK5 Kelly Hill</item>
+<item>(VKFF-781) VK5 Kenneth Stirling</item>
+<item>(VKFF-826) VK5 Kyeema</item>
+<item>(VKFF-277) VK5 Lake Gairdner</item>
+<item>(VKFF-278) VK5 Lake Torrens</item>
+<item>(VKFF-814) VK5 Lashmar</item>
+<item>(VKFF-827) VK5 Maize Island Lagoon</item>
+<item>(VKFF-782) VK5 Mark Oliphant</item>
+<item>(VKFF-799) VK5 Messent</item>
+<item>(VKFF-828) VK5 Monarto</item>
+<item>(VKFF-783) VK5 Morialta</item>
+<item>(VKFF-784) VK5 Mount George</item>
+<item>(VKFF-800) VK5 Mount Monster</item>
+<item>(VKFF-360) VK5 Mount Remarkable</item>
+<item>(VKFF-372) VK5 Murray River</item>
+<item>(VKFF-785) VK5 Mylor</item>
+<item>(VKFF-380) VK5 Naracoorte Caves</item>
+<item>(VKFF-801) VK5 Nene Valley</item>
+<item>(VKFF-829) VK5 Ngarkat</item>
+<item>(VKFF-397) VK5 Nullarbor</item>
+<item>(VKFF-402) VK5 Onkaparinga River</item>
+<item>(VKFF-830) VK5 Peebinga</item>
+<item>(VKFF-802) VK5 Penambol</item>
+<item>(VKFF-803) VK5 Penola</item>
+<item>(VKFF-831) VK5 Pike River</item>
+<item>(VKFF-786) VK5 Port Gawler</item>
+<item>(VKFF-787) VK5 Porter Scrub</item>
+<item>(VKFF-815) VK5 Ramsay</item>
+<item>(VKFF-788) VK5 Scott Creek</item>
+<item>(VKFF-816) VK5 Spring Gully</item>
+<item>(VKFF-789) VK5 Spring Mount</item>
+<item>(VKFF-832) VK5 Swan Reach</item>
+<item>(VKFF-790) VK5 Talisker</item>
+<item>(VKFF-804) VK5 Tantanoola Caves</item>
+<item>(VKFF-805) VK5 Telford Scrub</item>
+<item>(VKFF-817) VK5 The Dutchmans Stern</item>
+<item>(VKFF-811) VK5 Vivonne Bay</item>
+<item>(VKFF-189) VK5 Vulkathunha-Gammon Ranges</item>
+<item>(VKFF-818) VK5 Warrenben</item>
+<item>(VKFF-808) VK5 Whyalla</item>
+<item>(VKFF-819) VK5 Wills Creek</item>
+<item>(VKFF-820) VK5 Winninowie</item>
+<item>(VKFF-541) VK5 Witjira</item>
+<item>(VKFF-002) VK6 Alexander Morrison</item>
+<item>(VKFF-008) VK6 Avon Valley</item>
+<item>(VKFF-009) VK6 Badgingarra</item>
+<item>(VKFF-021) VK6 Beedelup</item>
+<item>(VKFF-632) VK6 Beelu</item>
+<item>(VKFF-633) VK6 Blackwood River</item>
+<item>(VKFF-045) VK6 Boorabbin</item>
+<item>(VKFF-634) VK6 Boorara-Gardner</item>
+<item>(VKFF-635) VK6 Boyndaminup</item>
+<item>(VKFF-636) VK6 Bramley</item>
+<item>(VKFF-059) VK6 Brockman</item>
+<item>(VKFF-076) VK6 Cape Arid</item>
+<item>(VKFF-078) VK6 Cape Le Grand</item>
+<item>(VKFF-081) VK6 Cape Range</item>
+<item>(VKFF-106) VK6 Collier Range</item>
+<item>(VKFF-637) VK6 Dalgarup</item>
+<item>(VKFF-137) VK6 DEntrecasteaux</item>
+<item>(VKFF-146) VK6 Drovers Cave</item>
+<item>(VKFF-148) VK6 Drysdale River</item>
+<item>(VKFF-638) VK6 Easter</item>
+<item>(VKFF-160) VK6 Eucla</item>
+<item>(VKFF-171) VK6 Fitzgerald River</item>
+<item>(VKFF-639) VK6 Forest Grove</item>
+<item>(VKFF-182) VK6 Francois Peron</item>
+<item>(VKFF-183) VK6 Frank Hann</item>
+<item>(VKFF-193) VK6 Geikie Gorge</item>
+<item>(VKFF-201) VK6 Gloucester</item>
+<item>(VKFF-715) VK6 Goldfields Woodlands</item>
+<item>(VKFF-209) VK6 Goongarrie</item>
+<item>(VKFF-210) VK6 Gooseberry Hill</item>
+<item>(VKFF-640) VK6 Greater Dordagup</item>
+<item>(VKFF-641) VK6 Greater Hawke</item>
+<item>(VKFF-642) VK6 Greater Kingston</item>
+<item>(VKFF-643) VK6 Greater Preston</item>
+<item>(VKFF-218) VK6 Greenmount</item>
+<item>(VKFF-644) VK6 Gull Rock</item>
+<item>(VKFF-228) VK6 Hassell</item>
+<item>(VKFF-645) VK6 Helena</item>
+<item>(VKFF-646) VK6 Hilliger</item>
+<item>(VKFF-647) VK6 Jane</item>
+<item>(VKFF-250) VK6 John Forrest</item>
+<item>(VKFF-253) VK6 Kalamunda</item>
+<item>(VKFF-254) VK6 Kalbarri</item>
+<item>(VKFF-257) VK6 Karijini</item>
+<item>(VKFF-436) VK6 Karlamilyi</item>
+<item>(VKFF-259) VK6 Kennedy Range</item>
+<item>(VKFF-716) VK6 Korung</item>
+<item>(VKFF-648) VK6 Lake Muir</item>
+<item>(VKFF-649) VK6 Lawley River</item>
+<item>(VKFF-283) VK6 Leeuwin Naturaliste</item>
+<item>(VKFF-284) VK6 Lesmurdie Falls</item>
+<item>(VKFF-285) VK6 Lesueur</item>
+<item>(VKFF-650) VK6 Midgergoroo</item>
+<item>(VKFF-316) VK6 Millstream-Chichester</item>
+<item>(VKFF-651) VK6 Milyeannup</item>
+<item>(VKFF-234) VK6 Mirima</item>
+<item>(VKFF-328) VK6 Moore River</item>
+<item>(VKFF-337) VK6 Mount Augustus</item>
+<item>(VKFF-348) VK6 Mount Frankland</item>
+<item>(VKFF-652) VK6 Mount Frankland (North)</item>
+<item>(VKFF-653) VK6 Mount Frankland (South)</item>
+<item>(VKFF-654) VK6 Mount Lindesay</item>
+<item>(VKFF-655) VK6 Mount Roe</item>
+<item>(VKFF-378) VK6 Nambung</item>
+<item>(VKFF-384) VK6 Neerabup</item>
+<item>(VKFF-411) VK6 Peak Charles</item>
+<item>(VKFF-419) VK6 Porongurup</item>
+<item>(VKFF-424) VK6 Purnululu</item>
+<item>(VKFF-445) VK6 Scott</item>
+<item>(VKFF-446) VK6 Serpentine</item>
+<item>(VKFF-448) VK6 Shannon</item>
+<item>(VKFF-452) VK6 Sir James Mitchell</item>
+<item>(VKFF-467) VK6 Stirling Range</item>
+<item>(VKFF-468) VK6 Stokes</item>
+<item>(VKFF-482) VK6 Tathra</item>
+<item>(VKFF-494) VK6 Torndirrup</item>
+<item>(VKFF-498) VK6 Tuart Forest</item>
+<item>(VKFF-500) VK6 Tunnel Creek</item>
+<item>(VKFF-514) VK6 Walpole-Nornalup</item>
+<item>(VKFF-515) VK6 Walyahmoning</item>
+<item>(VKFF-516) VK6 Walyunga</item>
+<item>(VKFF-656) VK6 Wandoo</item>
+<item>(VKFF-519) VK6 Warren</item>
+<item>(VKFF-524) VK6 Watheroo</item>
+<item>(VKFF-525) VK6 Waychinicup</item>
+<item>(VKFF-657) VK6 Wellington</item>
+<item>(VKFF-530) VK6 West Cape Howe</item>
+<item>(VKFF-658) VK6 Whicher</item>
+<item>(VKFF-538) VK6 William Bay</item>
+<item>(VKFF-659) VK6 Wiltshire-Butler</item>
+<item>(VKFF-540) VK6 Windjana Gorge</item>
+<item>(VKFF-543) VK6 Wolfe Creek Meteorite Crater</item>
+<item>(VKFF-552) VK6 Yalgorup</item>
+<item>(VKFF-553) VK6 Yanchep</item>
+<item>(VKFF-660) VK6 Yelverton</item>
+<item>(VKFF-028) VK7 Ben Lomond</item>
+<item>(VKFF-117) VK7 Cradle Mountain Lake St Clair</item>
+<item>(VKFF-145) VK7 Douglas-Aspley</item>
+<item>(VKFF-185) VK7 Franklin-Gordon Wild Rivers</item>
+<item>(VKFF-188) VK7 Freycinet</item>
+<item>(VKFF-227) VK7 Hartz Mountains</item>
+<item>(VKFF-260) VK7 Kent Group</item>
+<item>(VKFF-305) VK7 Maria Island</item>
+<item>(VKFF-322) VK7 Mole Creek Karst</item>
+<item>(VKFF-347) VK7 Mount Field</item>
+<item>(VKFF-366) VK7 Mount William</item>
+<item>(VKFF-005) VK7 Narawntapu</item>
+<item>(VKFF-432) VK7 Rocky Cape</item>
+<item>(VKFF-443) VK7 Savage River</item>
+<item>(VKFF-456) VK7 South Bruny</item>
+<item>(VKFF-461) VK7 Southwest</item>
+<item>(VKFF-469) VK7 Strzelecki</item>
+<item>(VKFF-481) VK7 Tasman</item>
+<item>(VKFF-513) VK7 Wallsof Jerusalem</item>
+<item>(VKFF-016) VK8 Barranyi (North Island)</item>
+<item>(VKFF-095) VK8 Charles Darwin</item>
+<item>(VKFF-142) VK8 Djukbinj</item>
+<item>(VKFF-150) VK8 Dulcie Ranges</item>
+<item>(VKFF-154) VK8 Elsey</item>
+<item>(VKFF-170) VK8 Finke Gorge</item>
+<item>(VKFF-223) VK8 Garig Gunak</item>
+<item>(VKFF-133) VK8 Iytwelepenty/Davenport Ranges</item>
+<item>(VKFF-219) VK8 Judbarra/Gregory</item>
+<item>(VKFF-252) VK8 Kakadu</item>
+<item>(VKFF-258) VK8 Keep River</item>
+<item>(VKFF-687) VK8 Kirrama</item>
+<item>(VKFF-289) VK8 Litchfield</item>
+<item>(VKFF-308) VK8 Mary River</item>
+<item>(VKFF-390) VK8 Nitmiluk</item>
+<item>(VKFF-505) VK8 Uluru-Kata Tjuta</item>
+<item>(VKFF-523) VK8 Watarrka</item>
+<item>(VKFF-532) VK8 West Macdonnell</item>
+<item>(VKFF-098) VK9 Christmas Island</item>
+<item>(VKFF-577) VK9 Cocos (Keeling) Islands</item>
+<item>(VKFF-573) VK9 Melish Reef</item>
+<item>(VKFF-392) VK9 Norfolk Island</item>
+<item>(VKFF-423) VK9 Pulu Keeling</item>
+		<item>(VKFF-574) VK9 Willis Island</item>
+	</string-array>
+	<string-array name="krmnpa_list_entries">
+		<item> Alfred National Park</item>
+		<item> Alpine National Park</item>
+		<item> Barmah National Park</item>
+		<item> Baw Baw National Park</item>
+		<item> Brisbane Ranges National Park</item>
+		<item> Burrowa-Pine Mountain National Park</item>
+		<item> Chiltern-Mt Pilot National Park</item>
+		<item> Churchill National Park</item>
+		<item> Cobboboonee National Park</item>
+		<item> Coopracambra National Park</item>
+		<item> Croajingolong National Park</item>
+		<item> Dandenong Ranges National Park</item>
+		<item> Errinundra National Park</item>
+		<item> French Island National Park</item>
+		<item> Grampians National Park</item>
+		<item> Great Otway National Park</item>
+		<item> Greater Bendigo National Park</item>
+		<item> Gunbower National Park</item>
+		<item> Hattah-Kulkyne National Park</item>
+		<item> Heathcote-Graytown National Park</item>
+		<item> Kinglake National Park</item>
+		<item> Lake Eildon National Park</item>
+		<item> Lind National Park</item>
+		<item> Little Desert National Park</item>
+		<item> Lower Glenelg National Park</item>
+		<item> Lower Goulburn National Park</item>
+		<item> Mitchell River National Park</item>
+		<item> Mornington Peninsula National Park</item>
+		<item> Morwell National Park</item>
+		<item> Mount Buffalo National Park</item>
+		<item> Mount Eccles National Park</item>
+		<item> Mount Richmond National Park</item>
+		<item> Murray-Sunset National Park</item>
+		<item> Organ Pipes National Park</item>
+		<item> Point Nepean National Park</item>
+		<item> Port Campbell National Park</item>
+		<item> River Red Gum Parks</item>
+		<item> Snowy River National Park</item>
+		<item> Tarra-Bulga National Park</item>
+		<item> Terrick Terrick National Park</item>
+		<item> The Lakes National Park</item>
+		<item> Warby-Ovens National Park</item>
+		<item> Wilsons Promontory National Park</item>
+		<item> Wyperfeld National Park</item>
+		<item> Yarra Ranges National Park</item>
+		<item> Kara Kara National Park</item>
+	</string-array>
+	<string-array name="sanpcpa_entries">
+		<item>Aberdour</item>
+		<item>Acraman Creek</item>
+		<item>Aldinga Scrub</item>
+		<item>Althorpe Islands</item>
+		<item>Angove</item>
+		<item>Avoid Bay Islands</item>
+		<item>Baird Bay Islands</item>
+		<item>Bakara</item>
+		<item>Bandon</item>
+		<item>Bangham</item>
+		<item>Barwell</item>
+		<item>Bascombe Well</item>
+		<item>Baudin</item>
+		<item>Baudin Rocks</item>
+		<item>Beachport</item>
+		<item>Beatrice Islet</item>
+		<item>Belair</item>
+		<item>Belt Hill</item>
+		<item>Beyeria</item>
+		<item>Big Heath</item>
+		<item>Billiatt</item>
+		<item>Bimbowrie</item>
+		<item>Bird Islands</item>
+		<item>Black Hill</item>
+		<item>Black Rock</item>
+		<item>Boondina</item>
+		<item>Breakaways</item>
+		<item>Brookfield</item>
+		<item>Bullock Hill</item>
+		<item>Busby Islet</item>
+		<item>Butcher Gap</item>
+		<item>Calectasia</item>
+		<item>Calpatanna Waterhole</item>
+		<item>Canunda</item>
+		<item>Cap Island</item>
+		<item>Cape Blanche</item>
+		<item>Cape Gantheaume</item>
+		<item>Cape Willoughby</item>
+		<item>Caralue Bluff</item>
+		<item>Carappee Hill</item>
+		<item>Carcuma</item>
+		<item>Caroona Creek</item>
+		<item>Carpenter Rocks</item>
+		<item>Carribie</item>
+		<item>Chadinga</item>
+		<item>Charleston</item>
+		<item>Christmas Rocks</item>
+		<item>Cleland</item>
+		<item>Clements Gap</item>
+		<item>Clinton</item>
+		<item>Cocata</item>
+		<item>Coffin Bay</item>
+		<item>Cooltong</item>
+		<item>Coongie Lakes</item>
+		<item>Coorong</item>
+		<item>Corrobinnie Hill</item>
+		<item>Cox Scrub</item>
+		<item>Cromer</item>
+		<item>Cudlee Creek</item>
+		<item>Custon</item>
+		<item>Danggali</item>
+		<item>Darke Range</item>
+		<item>Deep Creek</item>
+		<item>Desert Camp</item>
+		<item>Dingley Dell</item>
+		<item>Douglas Point</item>
+		<item>Dudley</item>
+		<item>Eba Island</item>
+		<item>Ediacara</item>
+		<item>Elliot Price</item>
+		<item>Eric Bonython</item>
+		<item>Ettrick</item>
+		<item>Eurilla</item>
+		<item>Ewens Ponds</item>
+		<item>Fairview</item>
+		<item>Ferguson</item>
+		<item>Ferries - McDonald</item>
+		<item>Finniss</item>
+		<item>Flinders Chase</item>
+		<item>Flinders Ranges</item>
+		<item>Fort Glanville</item>
+		<item>Fowlers Bay</item>
+		<item>Franklin Harbor</item>
+		<item>Furner</item>
+		<item>Gambier Islands</item>
+		<item>Gawler Ranges</item>
+		<item>Gawler Ranges</item>
+		<item>Geegeela</item>
+		<item>Giles</item>
+		<item>Glen Roy</item>
+		<item>Goose Island</item>
+		<item>Gower</item>
+		<item>Grass Tree</item>
+		<item>Great Australian Bight Marine</item>
+		<item>Greenly Island</item>
+		<item>Guichen Bay</item>
+		<item>Gum Lagoon</item>
+		<item>Gum Tree Gully</item>
+		<item>Hacks Lagoon</item>
+		<item>Hale</item>
+		<item>Hallett Cove</item>
+		<item>Hanson Scrub</item>
+		<item>Heggaton</item>
+		<item>Hesperilla</item>
+		<item>Hincks</item>
+		<item>Hogwash Bend</item>
+		<item>Hopkins Creek</item>
+		<item>Horsnell Gully</item>
+		<item>Innes</item>
+		<item>Ironstone Hill</item>
+		<item>Jip Jip</item>
+		<item>Kaiserstuhl</item>
+		<item>Kapunda Island</item>
+		<item>Karte</item>
+		<item>Kathai</item>
+		<item>Kellidie Bay</item>
+		<item>Kelly Hill</item>
+		<item>Kelvin Powrie</item>
+		<item>Kenneth Stirling</item>
+		<item>Kulliparu</item>
+		<item>Kungari</item>
+		<item>Kyeema</item>
+		<item>Lake Eyre</item>
+		<item>Lake Frome</item>
+		<item>Lake Gairdner</item>
+		<item>Lake Gilles</item>
+		<item>Lake Hawdon South</item>
+		<item>Lake Newland</item>
+		<item>Lake St Clair</item>
+		<item>Lake Torrens</item>
+		<item>Lashmar</item>
+		<item>Lathami</item>
+		<item>Laura Bay</item>
+		<item>Lesueur</item>
+		<item>Leven Beach</item>
+		<item>Lincoln</item>
+		<item>Lincoln</item>
+		<item>Lipson Island</item>
+		<item>Little Dip</item>
+		<item>Lowan</item>
+		<item>Lower Glenelg River</item>
+		<item>Maize Island Lagoon</item>
+		<item>Malgra</item>
+		<item>Mamungari</item>
+		<item>Marino</item>
+		<item>Mark Oliphant</item>
+		<item>Marne Valley</item>
+		<item>Martin Washpool</item>
+		<item>Martindale Hall</item>
+		<item>Mary Seymour</item>
+		<item>Media Island</item>
+		<item>Messent</item>
+		<item>Middlecamp Hills</item>
+		<item>Minlacowie</item>
+		<item>Moana Sands</item>
+		<item>Mokota</item>
+		<item>Monarto</item>
+		<item>Montacute</item>
+		<item>Moody Tank</item>
+		<item>Morgan</item>
+		<item>Morialta</item>
+		<item>Mount Billy</item>
+		<item>Mount Boothby</item>
+		<item>Mount Brown</item>
+		<item>Mount Dutton Bay</item>
+		<item>Mount George</item>
+		<item>Mount Magnificent</item>
+		<item>Mount Monster</item>
+		<item>Mount Remarkable</item>
+		<item>Mount Scott</item>
+		<item>Mount Taylor</item>
+		<item>Mowantjie Willauwar</item>
+		<item>Mullinger Swamp</item>
+		<item>Munyaroo</item>
+		<item>Murray River</item>
+		<item>Murrunatta</item>
+		<item>Mylor</item>
+		<item>Myponga</item>
+		<item>Naracoorte Caves</item>
+		<item>Nene Valley</item>
+		<item>Nepean Bay</item>
+		<item>Neptune Islands</item>
+		<item>Newland Head</item>
+		<item>Ngarkat</item>
+		<item>Ngaut Ngaut</item>
+		<item>Nicolas Baudin Island</item>
+		<item>Nixon - Skinner</item>
+		<item>Nullarbor</item>
+		<item>Nuyts Archipelago</item>
+		<item>Nuyts Reef</item>
+		<item>Olive Island</item>
+		<item>Onkaparinga River</item>
+		<item>Padthaway</item>
+		<item>Pandappa</item>
+		<item>Parndana</item>
+		<item>Peachna</item>
+		<item>Peebinga</item>
+		<item>Pelican Lagoon</item>
+		<item>Penambol</item>
+		<item>Penguin Island</item>
+		<item>Penola</item>
+		<item>Piccaninnie Ponds</item>
+		<item>Pigface Island</item>
+		<item>Pike River</item>
+		<item>Pine Hill Soak</item>
+		<item>Pinkawillinie</item>
+		<item>Point Bell</item>
+		<item>Point Davenport</item>
+		<item>Point Labatt</item>
+		<item>Pooginook</item>
+		<item>Poonthie Ruwe</item>
+		<item>Port Gawler</item>
+		<item>Porter Scrub</item>
+		<item>Pualco Range</item>
+		<item>Pullen Island</item>
+		<item>Pureba</item>
+		<item>Ramco Point</item>
+		<item>Ramsay</item>
+		<item>Red Banks</item>
+		<item>Reedy Creek</item>
+		<item>Ridley</item>
+		<item>Rilli Island</item>
+		<item>Rocky Island (North)</item>
+		<item>Rocky Island (South)</item>
+		<item>Roonka</item>
+		<item>Rudall</item>
+		<item>Salt Lagoon Islands</item>
+		<item>Sandy Creek</item>
+		<item>Sceale Bay</item>
+		<item>Scott</item>
+		<item>Scott Creek</item>
+		<item>Seal Bay</item>
+		<item>Searcy Bay</item>
+		<item>Seddon</item>
+		<item>Shannon</item>
+		<item>Sheoak Hill</item>
+		<item>Simpson</item>
+		<item>Simpson Desert</item>
+		<item>Sinclair Island</item>
+		<item>Sir Joseph Banks Group</item>
+		<item>Sleaford Mere</item>
+		<item>Spring Gully</item>
+		<item>Spring Mount</item>
+		<item>Stipiturus</item>
+		<item>Swan Reach</item>
+		<item>Talapar</item>
+		<item>Talisker</item>
+		<item>Tallaringa</item>
+		<item>Tantanoola Caves</item>
+		<item>Telford Scrub</item>
+		<item>Telowie Gorge</item>
+		<item>The Dutchmans Stern</item>
+		<item>The Knoll</item>
+		<item>The Pages</item>
+		<item>The Plug Range</item>
+		<item>Tilley Swamp</item>
+		<item>Torrens Island</item>
+		<item>Troubridge Island</item>
+		<item>Tucknott Scrub</item>
+		<item>Tumby Island</item>
+		<item>Venus Bay</item>
+		<item>Verran Tanks</item>
+		<item>Vivigani Ardune</item>
+		<item>Vivonne Bay</item>
+		<item>Vulkathunha - Gammon Ranges</item>
+		<item>Wabma Kadarbu Mound Springs</item>
+		<item>Wahgunyah</item>
+		<item>Waitpinga</item>
+		<item>Waldegrave Islands</item>
+		<item>Wanilla</item>
+		<item>Wanilla Land Settlement</item>
+		<item>Warren</item>
+		<item>Warrenben</item>
+		<item>West Island</item>
+		<item>Wharminda</item>
+		<item>Whidbey Isles</item>
+		<item>White Dam</item>
+		<item>Whyalla</item>
+		<item>Wills Creek</item>
+		<item>Winninowie</item>
+		<item>Witjira</item>
+		<item>Wittelbee</item>
+		<item>Woakwine</item>
+		<item>Wolseley Common</item>
+		<item>Yalpara</item>
+		<item>Yeldulknie</item>
+		<item>Yulte</item>
+		<item>Yumbarra</item>
+	</string-array>
+	<color name="list_item_recent">#FF0000</color>
+</resources>

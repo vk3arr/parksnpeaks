@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <PreferenceCategory 
+        android:title="App Behaviour"
+        >
+        
+	    <ListPreference 
+	        android:key="UpdateFrequency"
+	        android:title="Update Frequency"
+	        android:defaultValue="5"
+	        android:summary="How often the spot list updates"
+	        android:entries="@array/update_frequencies"
+	    	android:entryValues="@array/update_frequencies_values"
+	    	/>
+	    
+	    <ListPreference
+	        android:key="SpotListLength"
+	        android:title="Spot List Length"
+	        android:defaultValue="6"
+	        android:summary="How far back in time the spot list goes"
+	        android:entries="@array/spot_list_length"
+	    	android:entryValues="@array/spot_list_length_values" />
+	    
+	    <SwitchPreference
+	        android:key="FilterVK"
+	        android:title="Non-VK Summits"
+	        android:summaryOn="are displayed"
+	        android:summaryOff="are not displayed"
+	        android:defaultValue="false"
+	        />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Parks n' Peaks">
+        
+	    <EditTextPreference
+	        android:key="pnp_user"
+	        android:title="Username"
+	        />
+	    
+	    <EditTextPreference
+	        android:key="pnp_pass"
+	        android:title="Password"
+	        android:password="true"
+	        />
+   	</PreferenceCategory>
+    
+</PreferenceScreen>    

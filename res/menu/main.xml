@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.parksnpeaks.parksnpeaks.MainActivity" >
+
+    <item android:id="@+id/refresh" android:title="Refresh"></item>
+    <item android:id="@+id/post_spot" android:title="@string/post_spot"></item>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings" />
+    <item android:id="@+id/about" android:title="About"></item>
+    
+
+</menu>
